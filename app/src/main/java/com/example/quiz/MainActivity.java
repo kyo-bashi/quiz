@@ -106,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
 						public void onClick(View v) {
 								mondai_number += 1;
 								Invisible();
-								number.setText("第" + String.valueOf(mondai_number + 1) + "問");
+								number.setText(String.valueOf(mondai_number + 1) + "問");
 								mondai.setText(mondai_text.get(mondai_number));
 								kaito.setText("");
 						}
